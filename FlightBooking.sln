@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirlineApiService", "AirLine\AirlineApiService.csproj", "{0E741D1F-C53F-431A-BC68-36FEC6E82CE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingApiService", "Booking\BookingApiService.csproj", "{335FE5A7-63FB-4BB2-B572-49C7C8C871E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginApiService", "Login\LoginApiService.csproj", "{2874E8B7-10CB-4EE3-9CB3-BFDB79738F37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleApiService", "Schedule\ScheduleApiService.csproj", "{BCC40DFD-1983-4416-839A-FB03FC1E0A48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightBookingApiGateway", "OcelotApiGateway\FlightBookingApiGateway.csproj", "{A1E98CF7-BDEB-4EB7-9206-42E64F26C6CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedModels", "SharedModels\SharedModels.csproj", "{ACC74042-2E8C-4C99-9C54-E5CA09CDCF90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketReportService", "TicketReportService\TicketReportService.csproj", "{85BFA4E6-2C92-4024-B3B2-CB1A0E923BD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E741D1F-C53F-431A-BC68-36FEC6E82CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E741D1F-C53F-431A-BC68-36FEC6E82CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E741D1F-C53F-431A-BC68-36FEC6E82CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E741D1F-C53F-431A-BC68-36FEC6E82CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335FE5A7-63FB-4BB2-B572-49C7C8C871E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335FE5A7-63FB-4BB2-B572-49C7C8C871E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335FE5A7-63FB-4BB2-B572-49C7C8C871E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335FE5A7-63FB-4BB2-B572-49C7C8C871E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2874E8B7-10CB-4EE3-9CB3-BFDB79738F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2874E8B7-10CB-4EE3-9CB3-BFDB79738F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2874E8B7-10CB-4EE3-9CB3-BFDB79738F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2874E8B7-10CB-4EE3-9CB3-BFDB79738F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC40DFD-1983-4416-839A-FB03FC1E0A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC40DFD-1983-4416-839A-FB03FC1E0A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC40DFD-1983-4416-839A-FB03FC1E0A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC40DFD-1983-4416-839A-FB03FC1E0A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E98CF7-BDEB-4EB7-9206-42E64F26C6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E98CF7-BDEB-4EB7-9206-42E64F26C6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E98CF7-BDEB-4EB7-9206-42E64F26C6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E98CF7-BDEB-4EB7-9206-42E64F26C6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC74042-2E8C-4C99-9C54-E5CA09CDCF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC74042-2E8C-4C99-9C54-E5CA09CDCF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC74042-2E8C-4C99-9C54-E5CA09CDCF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC74042-2E8C-4C99-9C54-E5CA09CDCF90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85BFA4E6-2C92-4024-B3B2-CB1A0E923BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85BFA4E6-2C92-4024-B3B2-CB1A0E923BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85BFA4E6-2C92-4024-B3B2-CB1A0E923BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85BFA4E6-2C92-4024-B3B2-CB1A0E923BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF9593C4-8531-44A1-876E-4D96FDAEE8C0}
+	EndGlobalSection
+EndGlobal
